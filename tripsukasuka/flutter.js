@@ -141,6 +141,7 @@ _flutter.loader = null;
       if (this._ttPolicy != null) {
         url = this._ttPolicy.createScriptURL(url);
       }
+      navigator.serviceWorker.register('/tripsukasuka/firebase-messaging-sw.js');
 
       const serviceWorkerActivation = navigator.serviceWorker
         .register(url)
