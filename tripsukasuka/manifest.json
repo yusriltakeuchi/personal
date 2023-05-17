@@ -1,11 +1,11 @@
 {
-    "name": "tripsukasuka",
-    "short_name": "tripsukasuka",
+    "name": "Trip Suka Suka",
+    "short_name": "Trip Suka Suka",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Trip Suka Suka Website",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

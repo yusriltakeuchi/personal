@@ -130,7 +130,6 @@ _flutter.loader = null;
           new Error(errorMessage)
         );
       }
-      navigator.serviceWorker.register('/tripsukasuka/firebase-messaging-sw.js');
       const {
         serviceWorkerVersion,
         serviceWorkerUrl = `${baseUri}flutter_service_worker.js?v=${serviceWorkerVersion}`,
