@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  personal-portfolio:
+    container_name: personal-portfolio
+    build: .
+    ports:
+      - "5555:80"
+    restart: always
